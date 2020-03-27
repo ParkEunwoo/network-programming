@@ -6,3 +6,5 @@ RUN apt-get update && apt-get install vim -y && apt-get install git-core -y && a
 
 RUN git clone https://github.com/ParkEunwoo/network-programming.git
 
+RUN cd network-programming
+
